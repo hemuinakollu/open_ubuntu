@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <metadata minClientVersion="2.5">
+    <id>NugetPackage</id>
+    <version>1.0.0</version>
+    <title>ddtek.d2ccore</title>
+    <authors>M.Sravan Kumar</authors>
+    <owners>Avadhoot</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A sample nuget package</description>
+    <copyright>Copyright 2016</copyright>
+  </metadata>
+  <files>
+	<file src="bin\Debug\netstandard1.5\ddtek.d2ccore.dll" target="lib\netstandard1.0" />
+  </files>
+</package>

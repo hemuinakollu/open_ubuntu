@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    //"CreateNewNuGetPackageFromProjectAfterEachBuild": "1.8.9",
+    "Microsoft.AspNetCore.Http.Abstractions": "1.0.0-rc2-final",
+    "NETStandard.Library": "1.5.0-rc2-24027",
+    "NugetPackage": "1.0.0",
+    //"NuGet.CommandLine": "3.4.3",
+    //"NUnit": "3.2.1",
+    //"System.Collections.NonGeneric": "4.0.1-rc2-24027",
+    //"System.Data.SqlClient": "4.1.0-rc2-24027"
+  },
+
+  "frameworks": {
+    "netstandard1.5": {
+      "imports": "dnxcore50"
+    }
+  }
+}

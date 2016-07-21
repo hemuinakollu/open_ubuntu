@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  testapp:
+    image: username/testapp:Debug
+    environment:
+      - REMOTE_DEBUGGING=${REMOTE_DEBUGGING}
+    volumes:
+      - .:/app
